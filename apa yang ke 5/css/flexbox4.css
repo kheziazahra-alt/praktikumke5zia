@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 40px; font-family: "Times New Roman", serif; }
+.page { display: flex; width: 90%; max-width: 900px; height: 500px; margin: 0 auto; }
+nav { width: 130px; padding: 15px; background-color: #4d9cf5; }
+.konten { display: flex; flex-direction: column; flex: 1; }
+header, footer { height: 60px; padding: 15px; background-color: #9ecbff; }
+.tengah { display: flex; flex: 1; }
+article { flex: 1; padding: 15px; background-color: #eaf4ff; }
+aside { width: 130px; padding: 15px; background-color: #1e6fd9; color: white; }

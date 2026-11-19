@@ -1,0 +1,10 @@
+body { margin: 0; padding: 40px; }
+#container { position: relative; width: 90%; max-width: 1000px; height: 650px; margin: 0 auto; }
+#container div { position: absolute; border: 1px solid #333; box-sizing: border-box; }
+
+.kotak  { top: 0; left: 0; width: 15%; height: 50px; background-color: #ffe4f1; }
+.header { top: 0; left: 17%; right: 0; height: 50px; background-color: #ffd1e8; }
+.kolom1 { top: 70px; left: 0; width: 15%; bottom: 70px; background-color: #ffb3f1; }
+.kolom2 { top: 70px; left: 17%; width: 50%; bottom: 70px; background-color: #ff8fc7; }
+.kolom3 { top: 70px; right: 0; width: 31%; bottom: 70px; background-color: #f78fb3; }
+.footer { bottom: 0; left: 0; right: 0; height: 50px; background-color: #e0559c; }

@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 40px; font-family: Arial, sans-serif; color: white; }
+.page { display: flex; flex-direction: column; gap: 10px; width: 90%; max-width: 900px; height: 520px; margin: 0 auto; padding: 10px; background-color: #ffd1e8; }
+header, footer { height: 45px; padding: 10px; text-align: center; background-color: #ff8fc7; }
+.tengah { display: flex; gap: 10px; flex: 1; }
+aside { width: 180px; display: flex; align-items: center; justify-content: center; background-color: #e0559c; }
+article { flex: 1; display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 15px; background-color: #f78fb3; }
+.gambar { display: flex; gap: 10px; width: 100%; justify-content: center; }
+.gambar div { width: 110px; height: 80px; background-color: #ffe4f1; color: #a3306b; display: flex; align-items: center; justify-content: center; font-size: 14px; }
